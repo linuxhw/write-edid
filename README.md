@@ -8,7 +8,7 @@ Writes EDID information over a given I2C-Bus to a monitor.
 
 You can find out the bus number with: 
 ```
-ic2detect -l
+i2cdetect -l
 ```
 Address 0x50 should be available as the EDID data goes there.
 
